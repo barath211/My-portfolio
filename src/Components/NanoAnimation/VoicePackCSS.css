@@ -1,0 +1,25 @@
+.line{
+    transition: 2s;
+    animation: voicepack 0.35s linear infinite;
+}
+@keyframes voicepack {
+    from{
+        height: 15px;
+    }
+    to{
+        height: 5px;
+    }
+}
+
+.line-one {
+    animation-delay: 0.2s;
+}
+.line-two {
+    animation-delay: 0.3s;
+}
+.line-two {
+    animation-delay: 0.34s;
+}
+.line-four {
+    animation-delay: 0.1s;
+}

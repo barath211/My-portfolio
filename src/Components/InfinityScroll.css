@@ -1,0 +1,23 @@
+.scroll-right-to-left {
+  animation: RightToLeft 25s linear infinite;
+}
+@keyframes RightToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.scroll-left-to-right {
+  animation: LeftToRight 25s linear infinite;
+}
+
+@keyframes LeftToRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

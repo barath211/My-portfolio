@@ -1,0 +1,37 @@
+.project:hover .project-card{
+    border: 2px solid rgb(0, 170, 255);
+}
+.project:hover .project-info{
+    color: rgb(0, 170, 255);
+}
+
+*::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #222222;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #189EC3;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #1B85A3;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #357A9B;
+  }
+  
